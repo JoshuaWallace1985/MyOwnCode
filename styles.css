@@ -992,6 +992,11 @@ margin-top: 32px;
     transition: all 300ms ease;
 }
 
+.start__button:nth-child(2):hover {
+    background-color: rgba(247, 250, 252);
+    color:#6415ff;
+}
+
 /* FOOTER */
 
 footer {
@@ -1025,6 +1030,7 @@ footer {
 }
 
 .footer__columns {
+    width: 1200px;
     margin-top: -48px;
     display: flex;
     justify-content: space-between;
